@@ -168,8 +168,8 @@ def main():
             opt_disc,
             opt_gen,
             L1,
-            mse
-        )
+            mse,
+            )
 
         if config.SAVE_MODEL:
             save_checkpoint(gen_H, opt_gen, filename=config.CHECKPOINT_GEN_H)
